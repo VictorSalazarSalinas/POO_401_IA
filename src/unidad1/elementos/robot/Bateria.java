@@ -1,6 +1,6 @@
 package unidad1.elementos.robot;
 
-public class bateria {
+public class Bateria {
         private int nivelEnergia;
 
         public static void main(String[] args) {

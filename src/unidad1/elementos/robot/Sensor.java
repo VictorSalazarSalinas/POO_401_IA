@@ -1,6 +1,6 @@
 package unidad1.elementos.robot;
 
-public class sensor {
+public class Sensor {
     private String sensores;
     private float mejorar;
 

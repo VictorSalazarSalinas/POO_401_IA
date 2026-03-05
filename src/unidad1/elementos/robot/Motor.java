@@ -1,6 +1,6 @@
 package unidad1.elementos.robot;
 
-public class motor {
+public class Motor {
     private String tamanoMotor;
     private float poderMotor;
 
