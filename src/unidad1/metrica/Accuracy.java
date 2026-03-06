@@ -8,7 +8,7 @@ public class Accuracy extends Metrica {
 @Override
 public void  calcularResultado() {
     int datov = getDato();
-    System.out.println("calculado preseion");
+    System.out.println("calculando Precision");
     //
     //formula
     //

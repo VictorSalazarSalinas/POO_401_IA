@@ -8,7 +8,7 @@ public class MSE extends Metrica {
     @Override
     public void  calcularResultado() {
         int datov = getDato();
-        System.out.println("calculado ErrorCuadraticoMedio");
+        System.out.println("calculando ErrorCuadraticoMedio");
         //
         //formula
         //
