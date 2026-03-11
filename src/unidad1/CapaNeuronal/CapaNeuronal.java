@@ -18,6 +18,4 @@ public class CapaNeuronal {
     public void  propagcionHaciAdelante() {
         int[][] pixeles = getDato();
     }
-
-
 }
