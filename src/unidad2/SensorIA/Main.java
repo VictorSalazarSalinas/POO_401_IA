@@ -18,12 +18,19 @@ public class Main {
         SensorUltrasonido obje6 = new SensorUltrasonido("modelo 3.1",5.6);
 
 
+
+
         percepcionHub.add(obje1);
         percepcionHub.add(obje2);
         percepcionHub.add(obje3);
         percepcionHub.add(obje4);
         percepcionHub.add(obje5);
         percepcionHub.add(obje6);
+
+        obje1 = new SensorLidar("modelo 1.2",5.3);
+
+        percepcionHub.add(obje1);
+
 
 
         System.out.println("Iniciando Sistema version 1");
