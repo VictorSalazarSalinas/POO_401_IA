@@ -31,7 +31,10 @@ public class Main {
 
         percepcionHub.add(obje1);
 
+        obje5 = new SensorUltrasonido("modelo 2.1",6.9);
+        obje5.setModelo("modelo 5.1");
 
+        percepcionHub.add(obje5);
 
         System.out.println("Iniciando Sistema version 1");
 
