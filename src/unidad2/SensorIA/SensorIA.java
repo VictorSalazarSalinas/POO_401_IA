@@ -7,6 +7,7 @@ public abstract class SensorIA {
     public SensorIA(String modelo, double consumoEnergia) {
         this.modelo = modelo;
         this.consumoEnergia = consumoEnergia;
+
     }
 
     public abstract void leerDatos();
