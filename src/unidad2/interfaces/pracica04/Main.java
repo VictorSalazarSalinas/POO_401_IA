@@ -1,13 +1,14 @@
 package unidad2.interfaces.pracica04;
 
-import unidad1.dataset.DataSet;
+
+import unidad2.interfaces.pracica04.Dataset2;
 
 public class Main {
     public static void main(String[] args) {
 
         unidad2.interfaces.pracica04.SobreCarga carga = new SobreCarga();
 
-        DataSet data = new DataSet(5);
+        Dataset2 data = new Dataset2();
 
         int peso = 0;
 
