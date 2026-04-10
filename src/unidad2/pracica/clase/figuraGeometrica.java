@@ -1,18 +1,15 @@
 package unidad2.pracica.clase;
 
-abstract class figuraGeometrica {
+abstract class FiguraGeometrica {
     protected String nombre;
 
-
-
-    public figuraGeometrica(String nombre) {
+    public FiguraGeometrica(String nombre) {
         this.nombre = nombre;
     }
 
-    abstract double Calcualararea();
+    public abstract double calcularArea();
 
-    public void safa(){
-        System.out.println("Safa");
+    public void mostrarNombre() {
+        System.out.println("Figura: " + nombre);
     }
-
 }
