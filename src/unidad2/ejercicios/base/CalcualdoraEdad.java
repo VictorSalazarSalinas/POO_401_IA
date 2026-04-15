@@ -11,11 +11,11 @@ public class CalcualdoraEdad {
 
         try {
 
-            System.out.print("Ingresa tu edad: ");
+            System.out.print("Ingresa tu nacimiento: ");
 
             int nacimiento = sc.nextInt();
 
-            int edad = nacimiento-actual;
+            int edad = actual-nacimiento;
 
             System.out.print("tu edad es: "+edad);
 
