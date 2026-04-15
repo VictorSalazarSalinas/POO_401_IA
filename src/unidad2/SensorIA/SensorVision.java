@@ -1,6 +1,7 @@
 package unidad2.SensorIA;
 
 public class SensorVision extends SensorIA {
+
     public SensorVision(String modelo, double consumoEnergia) {
         super(modelo, consumoEnergia);
     }

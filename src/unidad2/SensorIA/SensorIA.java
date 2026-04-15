@@ -2,10 +2,6 @@ package unidad2.SensorIA;
 
 public abstract class SensorIA {
     private String modelo;
-
-
-
-
     private double consumoEnergia;
 
     public SensorIA(String modelo, double consumoEnergia) {

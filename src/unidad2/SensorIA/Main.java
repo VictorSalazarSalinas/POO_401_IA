@@ -6,6 +6,7 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
 
+
         List<SensorIA> percepcionHub = new ArrayList<>();
 
         SensorLidar obje1 = new SensorLidar("modelo 1.1",5.1);

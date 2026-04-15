@@ -2,7 +2,6 @@ package unidad2.SensorIA;
 
 public class SensorLidar extends SensorIA {
 
-
     public SensorLidar(String modelo, double consumoEnergia) {
         super(modelo, consumoEnergia);
     }

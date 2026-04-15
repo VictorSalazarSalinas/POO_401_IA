@@ -2,6 +2,7 @@ package unidad2.SensorIA;
 
 
 public class SensorUltrasonido extends SensorIA {
+
     public SensorUltrasonido(String modelo, double consumoEnergia) {
         super(modelo, consumoEnergia);
     }
