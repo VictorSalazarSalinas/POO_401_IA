@@ -8,7 +8,7 @@ public class AnalizadorDeNumeros {
     public static void main(String[] args) {
         //tarea1
         int suma = 0;
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i <= 100; i++) {
             suma += i;
                     }
         System.out.println(suma);
@@ -22,14 +22,16 @@ public class AnalizadorDeNumeros {
             System.out.println(i);
         }
         //tarea 2
-        int suma2 = 1;
-        while(suma2 >50){
-
+        int suma2 = 0;
+        while(suma2<=50){
+            suma2++;
             if(suma2>50){
+
                 System.out.println("numero encontrado  " + suma2);
                 break;
             }
-            suma2++;
+
+
         }
         //tarea 3
         Scanner sc = new Scanner(System.in);
