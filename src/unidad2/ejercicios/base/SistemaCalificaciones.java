@@ -16,6 +16,7 @@ public class SistemaCalificaciones {
         }
         //sentencia swicht
 
+
         char calificacion;
         switch(NotaExamen) {
             case 90:
