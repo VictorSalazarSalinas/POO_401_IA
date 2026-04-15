@@ -1,29 +1,12 @@
-### IntelliJ IDEA ###
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
-
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-
-### VS Code ###
-.vscode/
-
-### Mac OS ###
+#Compilados Java/Maven
+*.class
+target/
+#Configuracion local de IDE (no versionar)
+idea/
+*.iml
+#Configuracion local de entorno
+.env
+.env.*
+!.env.example
+#Archivos temporales del sistema
 .DS_Store
