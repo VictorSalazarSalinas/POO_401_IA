@@ -21,6 +21,7 @@ public class CalculadoraPromedio {
             System.out.println("El promedio es: "+promedio);
 
 
+
         }catch(InputMismatchException e){
             System.out.println("Error al ingreasar el dato  "  + e.getMessage());
             System.out.println("Error al ingreasar el dato  "  + e.getCause());
