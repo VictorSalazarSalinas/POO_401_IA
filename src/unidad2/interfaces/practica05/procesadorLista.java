@@ -12,38 +12,27 @@ public class procesadorLista {
         }
         System.out.println("\n");
 
-        int bandera = 1;
-        while (bandera == 1) {
-            for (int i = 0; i < 4; i++) {
-                if (frutas[i].charAt(0) == 'p') {
-                    System.out.println("encontrada con p: " + frutas[i]);
-                    bandera = 0;
-                }
+        int i = 0;
+        boolean encontrada = false;
+        while (i < frutas.length && !encontrada) {
+            if (frutas[i].startsWith("p")) {
+                System.out.println("encontrada: " + frutas[i] + " en posicion " + i);
+                encontrada = true;
             }
-
-            if (bandera == 1) bandera = 0;
+            i++;
         }
 
+        // tarea 3: do-while
         Scanner sc = new Scanner(System.in);
-        System.out.println("escribe el nombre de una fruta para buscarla:");
-        String opcion = sc.nextLine();
-
-        bandera = 1;
+        boolean valido = false;
+        String busqueda;
         do {
-            for (int i = 0; i < frutas.length; i++) {
-                if (frutas[i].equals(opcion)) {
-                    System.out.println(frutas[i] + " tu fruta esta en la lista");
-                    bandera = 0;
-                    break;
-                }
-            }
-
-            if (bandera == 1) {
-                System.out.println("la fruta no esta");
-                opcion = sc.nextLine();
-            }
-        } while (bandera == 1);
-
-
+            System.out.print("ingresa una fruta: ");
+            busqueda = sc.nextLine();
+            for (String f : frutas) if (f.equals(busqueda)) valido = true;
+            if (!valido) System.out.println("intenta de nuevo");
+        } while (!valido);
+        System.out.println("fruta valida");
+        sc.close();
     }
 }
