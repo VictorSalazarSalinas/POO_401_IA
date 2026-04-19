@@ -17,6 +17,7 @@ public class Main {
 
         System.out.println("Implementacion 2 ");
 
+
         RectanguloV2 rectanguloV2 = new RectanguloV2();
         rectanguloV2.setBase(6.0);
         rectanguloV2.setAltura(4.8);

@@ -7,6 +7,7 @@ abstract class FiguraGeometrica {
         this.nombre = nombre;
     }
 
+
     public abstract double calcularArea();
 
     public void mostrarNombre() {

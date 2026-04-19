@@ -8,6 +8,7 @@ class circulo extends FiguraGeometrica {
         this.radio = radio;
     }
 
+
     public circulo(String nombre) {
         super(nombre);
     }

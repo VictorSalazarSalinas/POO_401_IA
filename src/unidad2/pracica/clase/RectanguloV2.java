@@ -12,6 +12,7 @@ public class RectanguloV2  extends FiguraGeometrica {
         this.base = base;
     }
 
+
     public void setAltura(double altura) {
         this.altura = altura;
     }
